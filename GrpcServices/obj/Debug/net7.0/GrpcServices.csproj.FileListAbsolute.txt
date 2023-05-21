@@ -1,0 +1,15 @@
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.csproj.AssemblyReference.cache
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.AssemblyInfoInputs.cache
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.AssemblyInfo.cs
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.csproj.CoreCompileInputs.cache
+/Users/polina/RiderProjects/DataSender/GrpcServices/bin/Debug/net7.0/GrpcServices.deps.json
+/Users/polina/RiderProjects/DataSender/GrpcServices/bin/Debug/net7.0/GrpcServices.dll
+/Users/polina/RiderProjects/DataSender/GrpcServices/bin/Debug/net7.0/GrpcServices.pdb
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.dll
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/refint/GrpcServices.dll
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.pdb
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/ref/GrpcServices.dll
+/Users/polina/RiderProjects/DataSender/GrpcServices/bin/Debug/net7.0/Domain.dll
+/Users/polina/RiderProjects/DataSender/GrpcServices/bin/Debug/net7.0/Domain.pdb
+/Users/polina/RiderProjects/DataSender/GrpcServices/obj/Debug/net7.0/GrpcServices.csproj.CopyComplete

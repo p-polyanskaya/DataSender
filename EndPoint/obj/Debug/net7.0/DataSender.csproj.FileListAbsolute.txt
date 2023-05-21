@@ -1,0 +1,6 @@
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.csproj.AssemblyReference.cache
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.AssemblyInfoInputs.cache
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.AssemblyInfo.cs
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.csproj.CoreCompileInputs.cache
+/Users/polina/RiderProjects/DataSender/DataSender/obj/Debug/net7.0/DataSender.MvcApplicationPartsAssemblyInfo.cache
