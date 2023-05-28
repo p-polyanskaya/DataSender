@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/polina/RiderProjects/DataSender/GrpcServices/GrpcServices.csproj": {}
+    "/Users/polina/Documents/GitHub/DataSender/GrpcServices/GrpcServices.csproj": {}
   },
   "projects": {
-    "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj": {
+    "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj",
+        "projectPath": "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj",
         "packagesPath": "/Users/polina/.nuget/packages/",
-        "outputPath": "/Users/polina/RiderProjects/DataSender/Domain/obj/",
+        "outputPath": "/Users/polina/Documents/GitHub/DataSender/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/polina/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/polina/RiderProjects/DataSender/GrpcServices/GrpcServices.csproj": {
+    "/Users/polina/Documents/GitHub/DataSender/GrpcServices/GrpcServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/polina/RiderProjects/DataSender/GrpcServices/GrpcServices.csproj",
+        "projectUniqueName": "/Users/polina/Documents/GitHub/DataSender/GrpcServices/GrpcServices.csproj",
         "projectName": "GrpcServices",
-        "projectPath": "/Users/polina/RiderProjects/DataSender/GrpcServices/GrpcServices.csproj",
+        "projectPath": "/Users/polina/Documents/GitHub/DataSender/GrpcServices/GrpcServices.csproj",
         "packagesPath": "/Users/polina/.nuget/packages/",
-        "outputPath": "/Users/polina/RiderProjects/DataSender/GrpcServices/obj/",
+        "outputPath": "/Users/polina/Documents/GitHub/DataSender/GrpcServices/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/polina/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj": {
-                "projectPath": "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj"
+              "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj": {
+                "projectPath": "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj"
               }
             }
           }
@@ -108,6 +108,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.54.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [

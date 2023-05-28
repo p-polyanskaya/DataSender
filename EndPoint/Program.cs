@@ -1,7 +1,9 @@
 using GrpcServices;
+using Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.Configure<GrpcSettings>(builder.Configuration.GetSection(nameof(GrpcSettings)));
 builder.Services.AddGrpc();
 builder.Services.AddGrpcReflection();
 

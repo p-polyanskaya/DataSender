@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/polina/RiderProjects/DataSender/Domain/Domain.csproj",
+      "projectPath": "/Users/polina/Documents/GitHub/DataSender/Domain/Domain.csproj",
       "packagesPath": "/Users/polina/.nuget/packages/",
-      "outputPath": "/Users/polina/RiderProjects/DataSender/Domain/obj/",
+      "outputPath": "/Users/polina/Documents/GitHub/DataSender/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/polina/.nuget/NuGet/NuGet.Config"
