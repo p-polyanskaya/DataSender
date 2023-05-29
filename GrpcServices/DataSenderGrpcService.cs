@@ -34,6 +34,7 @@ public class DataSenderGrpcService: DataStreamer.DataStreamerBase
             throw new Exception("Ошибка при получении новостей.");
         }
 
+        Console.WriteLine("Получили из источника новостей - " + content.Results.Count);
         if (content.Results.Any())
         {
             var newsToSave = new List<News>();
@@ -57,6 +58,7 @@ public class DataSenderGrpcService: DataStreamer.DataStreamerBase
                 var serializedResult = JsonSerializer.Serialize(newsToSave);
                 await writer.WriteAsync(serializedResult);
             }
+            Console.WriteLine("Добавили в файл новостей - " + newsToSave.Count);
         }
 
         return new AddNewsToFileResponse();

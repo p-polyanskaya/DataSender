@@ -9,7 +9,7 @@ namespace GrpcServices;
 
 public class Processor
 {
-    private readonly CancellationTokenSource _cancellationTokenSource;
+    private CancellationTokenSource _cancellationTokenSource;
     private const string UndefinedValue = "Неизвестно";
     private readonly IOptions<GrpcSettings> _grpcSettings;
 
@@ -21,6 +21,7 @@ public class Processor
 
     public Task Start(CancellationToken cancellationToken)
     {
+        _cancellationTokenSource = new CancellationTokenSource();
         var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(
             cancellationToken,
             _cancellationTokenSource.Token);
@@ -35,7 +36,7 @@ public class Processor
         using var channel = GrpcChannel.ForAddress(_grpcSettings.Value.Url);
         var client = new DataStreamer.DataStreamerClient(channel);
         using var call = client.SendStreamData();
-        
+
         while (!cancellationToken.IsCancellationRequested)
         {
             var fileName = "news.txt";
@@ -44,23 +45,27 @@ public class Processor
                 existedData,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
+            Console.WriteLine("В файле новостей - "+ existedNews.Count);
+
             foreach (var news in existedNews)
             {
                 var newsText = news.Content ?? news.Description ?? UndefinedValue;
 
                 if (newsText != UndefinedValue)
                 {
+                    var id = Guid.NewGuid().ToString();
                     await call.RequestStream.WriteAsync(new Request
                     {
                         Message = new Message
                         {
-                            Id = Guid.NewGuid().ToString(),
+                            Id = id,
                             Text = newsText,
                             TimeOfMessage = DateTime.UtcNow.ToTimestamp(),
                             Source = news.SourceId ?? UndefinedValue,
                             Author = GetAuthor(news.Creator)
                         }
                     }, cancellationToken);
+                    Console.WriteLine("Отправил  сообщение - " + id);
                 }
             }
         }
